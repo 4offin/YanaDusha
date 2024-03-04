@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+
+#root {
+    padding: 0%;
+    margin: 0%;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100vw;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Javanese';
+    font-size: 1.8rem;
+    color: black;
+    text-decoration: none;
+    margin-left: 3rem;
+    font-weight: 400;
+    height: 5rem;
+    gap: 10px;
+    justify-content:center;
+}
+.logo-p{
+    color: black;
+    margin: 0px;
+    padding: 0.7rem 0;
+}
+
+.nav-items{
+    font-family: 'Nanum Gothic';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    height: 5rem;
+    width: 33rem
+}
+.nav-rigth-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: black;
+    text-decoration: none;
+    margin-right: 3rem;
+    height: 5rem;
+    gap: 10px;
+
+}
+.nav-menu{
+    font-family: 'Nanum Gothic';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    gap: 50px;
+}
+.nav-menu hr{
+    border: none;
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: black;
+}
+.nav-menu-item{
+    font-family: 'Nanum Gothic';
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+.dropdown{
+    font-family: 'Nanum Gothic';
+    font-weight: bold;
+    margin-right: 1rem;
+    width: 2rem;
+}
+.nav-bag{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.btn-dark{
+    --bs-btn-color: black;
+    --bs-btn-bg: none;
+    --bs-btn-border-color: none;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+
+    color: black;
+    background: none;
+    background-color: none;
+    border-color: none;
+}
+.dropdown-item{
+    color: black;
+    background: none;
+    background-color: none;
+    border-color: none;
+}
+.dropdown-item:hover{
+    color: black;
+    background: lightgray;
+    background-color: none;
+    border-color: none;
+}
+.dropdown-menu {
+    --bs-dropdown-min-width: 3.5rem;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 0px;
+    --bs-dropdown-color: black;
+    --bs-dropdown-bg: white
+    --bs-dropdown-bg: white;
+    --bs-dropdown-border: none;
+}
